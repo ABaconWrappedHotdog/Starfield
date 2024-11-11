@@ -57,12 +57,7 @@ class Planet extends Particle {
               myX = 250;
               myY = 250;
           }
-          else if(myX > 500 || myY > 500)
-          {
-              myX = 250;
-              myY = 250;
-          }
-          else if(myX < 0 || myY < 0)
+          else if(myX < -50 || myY < -50)
           {
               myX = 250;
               myY = 250;
@@ -103,11 +98,7 @@ class Particle{
               myX = 250;
               myY = 250;
           }
-          else if(myX > 500 || myY > 500)
-          {
-              myX = 250;
-              myY = 250;
-          }
+
           else if(myX < 0 || myY < 0)
           {
               myX = 250;

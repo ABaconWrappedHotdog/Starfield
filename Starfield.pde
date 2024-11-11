@@ -1,5 +1,5 @@
- Particle[] bob = new Particle[1000];
- Planet[] sam = new Planet[50];
+ Particle[] bob = new Particle[500];
+ Planet[] sam = new Planet[25];
 void setup(){
   size(500,500);
   background(0);
